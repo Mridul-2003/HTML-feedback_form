@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset ="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Contact form</title>
+</head>
+<body style="background-color:bisque" >
+    <h1 style="text-align:center">Feedback Form</h1>
+    <h3>Student Details</h3>
+    <form>
+        <fieldset style="background-color:aqua">
+            <legend>Student</legend>
+            <div id="fname">
+            <label>First Name: </label>
+            <input type="text" name="fname" placeholder="First-Name">
+            </div>
+            <div id="lname">
+            <label>Last Name: </label>
+            <input type="text" name="lname" placeholder="Last-Name">
+            </div>
+            <div id="age">
+                <label>Enter Age: </label>
+                <input type="number" name="age" placeholder="Age">
+            </div>
+            <div id="gender">
+                <label>Gender: </label>
+                Male: <input type="radio" name="gender">Female: <input type="radio" name="gender">
+            </div>
+            <div id="email">
+                <label for="email">Email: </label>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+        </fieldset>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <h3>Student Feedback</h3>
+    <form>
+        <fieldset style="background-color:aqua">
+            <legend>Feedback</legend>
+            <p>Give ratings out of 5 for session.</p>
+            1<input type="radio" name="rating">
+            2<input type="radio" name="rating">
+            3<input type="radio" name="rating">
+            4<input type="radio" name="rating">
+            5<input type="radio" name="rating">
+            <br/>
+            <br/>
+            <p>Give your feeback.</p>
+            <textarea name="message" rows="10" columns="30" placeholder="feeback">
+
+            </textarea>
+        </fieldset>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    
+</body>
+</html>
